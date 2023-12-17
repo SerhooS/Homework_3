@@ -10,3 +10,31 @@ Homework_3
 #######Task_03
 # Користувач вводить два числа та матем дію: + - * або /
 # Залежно від введеної матем дії вивести результат
+
+#######Task_01
+
+# try:
+#     choice = int(input("Оберіть номер дня (1 - 7): "))
+#
+#     match choice:
+#         case 1:
+#             print("Понеділок")
+#         case 2:
+#             print("Вівторок")
+#         case 3:
+#             print("Середа")
+#         case 4:
+#             print("Четвер")
+#         case 5:
+#             print("П'ятниця")
+#         case 6:
+#             print("Субота")
+#         case 7:
+#             print("Неділя")
+#         case _:
+#             raise Exception("Будь-ласка введіть цифру від 1 - 7")
+#
+# except Exception as e:
+#     print(f"Невірний вибір: {e}")
+# finally:
+#     print("На все добре!")
